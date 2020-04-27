@@ -1,0 +1,10 @@
+def div(name,meng):
+    print(name)
+    print(meng)
+    print("yudu,ganzhou,jiangxi,china")
+    print("wengchanglu 728 601")
+    print("Xie Mingxuan")
+    print("342300")
+    print()
+    div("rim catry","202,2003")
+    div("yong pok","2021 022")
