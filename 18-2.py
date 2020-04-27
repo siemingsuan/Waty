@@ -32,9 +32,9 @@ while running:
             running = False
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_UP:
-                ball.rect.top = ball.rect.top-10
+                ball.rect.top = ball.rect.top - 10
             elif event.key == pygame.K_DOWN:
-                ball.rect.top = ball.rect.top+10
+                ball.rect.top = ball.rect.top + 10
     clock.tick(30)
     screen.blit(pli,[0,0])
     ball.move()
